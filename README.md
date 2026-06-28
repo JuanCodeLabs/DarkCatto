@@ -1,8 +1,8 @@
-#DarkCatto Obsidian Theme
+# DarkCatto Obsidian Theme
 
 DarkCatto is a dark theme for Obsidian that uses the Catppuccin color palette.
 
-![DarkCatto Preview](preview.png)
+![DarkCatto Preview](screenshot.png)
 
 ## Installation
 
