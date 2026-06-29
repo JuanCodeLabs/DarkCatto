@@ -1,7 +1,6 @@
 {
   "name": "DarkCatto",
-  "version": "1.0.0",
-  "minAppVersion": "1.0.0",
+  "version": "0.0.1",
+  "minAppVersion": "0.0.1",
   "author": "Juan Diaz",
-  "authorUrl": "https://portafolio-juan-diaz.vercel.app"
 }
