@@ -96,6 +96,9 @@
     --background-modifier-border: rgba(176, 175, 201, 0.4);
     --background-modifier-hover: rgba(196, 195, 216, 0.5);
 
+    backdrop-filter: blur(22px) saturate(140%);
+    -webkit-backdrop-filter: blur(22px) saturate(140%);
+
     --text-normal: var(--ctp-text);
     --text-muted: var(--ctp-subtext);
     --text-faint: var(--ctp-overlay);
@@ -103,6 +106,13 @@
     --text-accent-hover: var(--ctp-blue);
     --text-selection: rgba(114, 135, 253, 0.18);
     --text-highlight-bg: rgba(223, 142, 29, 0.2);
+
+    --font-text-theme: -apple-system, "SF Pro Text", "SF Pro Display", "Segoe UI", system-ui, sans-serif;
+    --font-interface-theme: -apple-system, "SF Pro Text", "SF Pro Display", "Segoe UI", system-ui, sans-serif;
+    --font-monospace-theme: "JetBrains Mono", "SF Mono", Menlo, Consolas, monospace;
+
+    --font-text-size: 16px;
+    --line-height-normal: 1.65;
 
     --link-color: var(--ctp-blue);
     --link-color-hover: var(--ctp-sapphire);
