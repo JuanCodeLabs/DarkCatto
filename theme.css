@@ -39,9 +39,14 @@
     --text-selection: rgba(180, 190, 254, 0.25);
     --text-highlight-bg: rgba(249, 226, 175, 0.25);
 
-    --font-text-theme: -apple-system, "SF Pro Text", "SF Pro Display", "Segoe UI", system-ui, sans-serif;
-    --font-interface-theme: -apple-system, "SF Pro Text", "SF Pro Display", "Segoe UI", system-ui, sans-serif;
-    --font-monospace-theme: "JetBrains Mono", "SF Mono", Menlo, Consolas, monospace;
+    --font-text-theme:
+        -apple-system, "SF Pro Text", "SF Pro Display", "Segoe UI", system-ui,
+        sans-serif;
+    --font-interface-theme:
+        -apple-system, "SF Pro Text", "SF Pro Display", "Segoe UI", system-ui,
+        sans-serif;
+    --font-monospace-theme:
+        "JetBrains Mono", "SF Mono", Menlo, Consolas, monospace;
 
     --font-text-size: 16px;
     --line-height-normal: 1.65;
@@ -107,9 +112,14 @@
     --text-selection: rgba(114, 135, 253, 0.18);
     --text-highlight-bg: rgba(223, 142, 29, 0.2);
 
-    --font-text-theme: -apple-system, "SF Pro Text", "SF Pro Display", "Segoe UI", system-ui, sans-serif;
-    --font-interface-theme: -apple-system, "SF Pro Text", "SF Pro Display", "Segoe UI", system-ui, sans-serif;
-    --font-monospace-theme: "JetBrains Mono", "SF Mono", Menlo, Consolas, monospace;
+    --font-text-theme:
+        -apple-system, "SF Pro Text", "SF Pro Display", "Segoe UI", system-ui,
+        sans-serif;
+    --font-interface-theme:
+        -apple-system, "SF Pro Text", "SF Pro Display", "Segoe UI", system-ui,
+        sans-serif;
+    --font-monospace-theme:
+        "JetBrains Mono", "SF Mono", Menlo, Consolas, monospace;
 
     --font-text-size: 16px;
     --line-height-normal: 1.65;
@@ -133,7 +143,6 @@
     --code-tag: var(--ctp-red);
     --code-value: var(--ctp-peach);
 }
-
 
 .markdown-rendered h2,
 .markdown-rendered h3,
@@ -203,16 +212,16 @@
     color: var(--ctp-subtext) !important;
 }
 
-.markdown-rendered h1+p,
-.markdown-rendered h2+p,
-.markdown-rendered h3+p,
-.markdown-rendered h4+p,
-.markdown-rendered h1+ul,
-.markdown-rendered h2+ul,
-.markdown-rendered h3+ul,
-.markdown-rendered h1+ol,
-.markdown-rendered h2+ol,
-.markdown-rendered h3+ol {
+.markdown-rendered h1 + p,
+.markdown-rendered h2 + p,
+.markdown-rendered h3 + p,
+.markdown-rendered h4 + p,
+.markdown-rendered h1 + ul,
+.markdown-rendered h2 + ul,
+.markdown-rendered h3 + ul,
+.markdown-rendered h1 + ol,
+.markdown-rendered h2 + ol,
+.markdown-rendered h3 + ol {
     margin-top: 0.2em;
 }
 
