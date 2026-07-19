@@ -1,14 +1,21 @@
-# DarkCatto Obsidian Theme
+# DarkCatto
 
-DarkCatto is a dark theme for Obsidian that uses the Catppuccin color palette.
+A theme for Obsidian based on the **Catppuccin** color palette, now available in two versions: **DarkCatto** (dark mode) and **WhiteCatto** (light mode), both within the same theme.
 
 ![DarkCatto Preview](screenshot.png)
 
-## Installation
+## What's New
 
-1. Download the `theme.css` file
-2. Place it in your Obsidian themes folder
-3. Select "DarkCatto" from the Themes settings
+**WhiteCatto** has been added, a light mode version that keeps the same aesthetic, color palette, and fonts as the original dark mode, adapted to a white background without losing the theme's visual identity.
+
+![WhiteCatto Preview](screenshot-white.png)
+
+## Available Modes
+
+- **DarkCatto**: dark mode, inspired by the Catppuccin Mocha palette.
+- **WhiteCatto**: light mode, carrying the same visual essence of DarkCatto adapted to lighter tones.
+
+You can switch between both modes directly from Obsidian's appearance settings.
 
 ## License
 
